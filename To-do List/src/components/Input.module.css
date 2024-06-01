@@ -1,0 +1,14 @@
+.input {
+  width: 46rem;
+  background: var(--gray-500);
+  color: var(--gray-300);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: left;
+}
+
+.input:focus {
+  border-color: var(--purple-dark);
+  color: var(--gray-100);
+}
