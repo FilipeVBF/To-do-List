@@ -23,7 +23,7 @@
 
 body, input, textarea, button {
   font-family: 'Inter', sans-serif;
-  font-weight: regular;
+  font-weight: normal;
   line-height: 140%;
 }
 
@@ -32,5 +32,7 @@ body, input, textarea, button {
 }
 
 body {
+  -webkit-font-smoothing: antialiased;
   background: var(--gray-600);
+  font-size: 1rem;
 }

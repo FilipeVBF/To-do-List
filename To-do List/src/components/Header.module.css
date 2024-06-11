@@ -4,18 +4,19 @@
   height: 12.5rem;
   background: #0D0D0D;
   align-items: center;
+  padding: 4.5rem 0 5rem 0;
 }
 
 .header img {
   width: 7.875rem;
   height: 3rem;
-  margin-top: 72px;
 }
 
 .task {
   display: flex;
   flex-direction: row;
   gap: 8px;
-  margin-top: 173px;
   position: absolute;
+  top: 0;
+  padding: 10.813rem 0 0 0;
 }

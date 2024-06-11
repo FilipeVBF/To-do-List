@@ -1,0 +1,55 @@
+.section {
+  display: flex;
+  width: 46rem;
+  margin: 5.688rem auto 5.688rem auto;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.info > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.info .created span {
+  color: var(--blue);
+} 
+.info .done span {
+  color: var(--purple);
+}
+
+.info div p {
+  padding: 2px 8px;
+  background: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 999px;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  font-size: 12px;
+  line-height: normal;
+  align-items: center;
+  font-weight: bold;
+}
+.container {
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  gap: 1rem;
+}
+
+.container svg {
+  color: var(--gray-400);
+}
+
+.empty {
+  color: var(--gray-300);
+}
